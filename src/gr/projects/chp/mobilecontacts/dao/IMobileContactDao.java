@@ -15,5 +15,6 @@ public interface IMobileContactDao {
     List<MobileContact> getAll();
     MobileContact getByPhoneNumber(String phoneNumber);
     boolean phoneNumberExist(String phoneNumber);
+    boolean userIdExists(Long id);
 
 }
